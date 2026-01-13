@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Data
+data/
+mlruns/
+
+# Docs
+docs/
+
+# outputs - 특정 파일 타입만 무시 (디렉토리는 무시하지 않음)
+outputs/**/*.txt
+outputs/**/*.csv
+outputs/**/*.html
+outputs/**/*.bt
+outputs/2025-10-11
+outputs/step3/core_keyword/keywords
+
+outputs/step3/core_keyword/core_keyword_**/
+
+outputs/**/core_keyword_*/
+
+src/
+# umap PNG와 wordclouds는 자동으로 추적됨 (위에서 무시하지 않았으므로)
+
+# Environment
+.env
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
